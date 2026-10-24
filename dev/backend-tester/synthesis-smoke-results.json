@@ -1,0 +1,244 @@
+{
+  "recordedAt": "2026-10-24T12:40:17.322Z",
+  "note": "Three bounded real DeepSeek calls with synthetic questions; no retries. AI-assisted source comparison against physical 48/50, not independent human certification. Quote/ID validation alone does not prove logical entailment.",
+  "sourceSha256": "17da4d5f11024a04230059b075072ad917f9c0e464c4fbd842a547f9f5fb2caa",
+  "sourceContextUtf8Bytes": 6155,
+  "reviewedEvidenceCount": 8,
+  "results": [
+    {
+      "test": "multi_page_conclusion_en",
+      "request": {
+        "conversationId": null,
+        "clientMessageId": "c5d08c10-2f2a-4744-a1cc-f88b462128e4",
+        "language": "en",
+        "message": "Makakatulong ba sa pagsipsip ng sustansiya ang tamang tubig habang namumulaklak ang palay, at gaano ito kalalim?",
+        "image": null
+      },
+      "status": "PASS",
+      "http": 200,
+      "httpLatencyMs": 1360,
+      "response": {
+        "conversationId": "c79cd627-a9e1-4db9-b1df-3e81a4821130",
+        "assistantMessage": {
+          "id": "f407119f-b5a1-4cca-878b-347edba9f943",
+          "kind": "grounded",
+          "text": "Getting the water volume right helps the rice plant take up nutrients better, so proper water management supports nutrient uptake.\n\nDuring the flowering stage, keep the water level at 5 cm.",
+          "references": [
+            {
+              "evidenceId": "p048-c01",
+              "documentId": "palaycheck-2020-revised-17da4d5f1102",
+              "pdfPage": 48,
+              "printedLabel": "43",
+              "section": "Water Management"
+            },
+            {
+              "evidenceId": "p050-c01",
+              "documentId": "palaycheck-2020-revised-17da4d5f1102",
+              "pdfPage": 50,
+              "printedLabel": "45",
+              "section": "Water Management"
+            }
+          ]
+        },
+        "pendingGeneral": null
+      },
+      "trace": {
+        "requestId": "6b5c9886-f52a-4321-8678-9171e1bedba8",
+        "timestamp": "2026-10-24T12:40:13.207Z",
+        "responseOrigin": "DeepSeek",
+        "upstreamAttempted": true,
+        "upstreamHttpStatus": 200,
+        "providerResponseId": "1cf3a7ac-044e-42ee-a369-eee58122ec91",
+        "model": "deepseek-flash",
+        "usage": {
+          "promptTokens": 2775,
+          "completionTokens": 117,
+          "totalTokens": 2892
+        },
+        "modelDecision": "grounded",
+        "apiStatus": 200,
+        "elapsedMs": 1331
+      },
+      "modelOutput": {
+        "kind": "grounded",
+        "language": "en",
+        "claims": [
+          {
+            "text": "Getting the water volume right helps the rice plant take up nutrients better, so proper water management supports nutrient uptake.",
+            "supports": [
+              {
+                "evidenceId": "p048-c01",
+                "quote": "The right volume of water promotes\nbetter nutrient uptake, good plant vigor"
+              }
+            ]
+          },
+          {
+            "text": "During the flowering stage, keep the water level at 5 cm.",
+            "supports": [
+              {
+                "evidenceId": "p050-c01",
+                "quote": "Maintain 5cm water level during the\nflowering stage."
+              }
+            ]
+          }
+        ]
+      },
+      "usage": {
+        "model": "deepseek-flash",
+        "promptTokens": 2775,
+        "completionTokens": 117,
+        "totalTokens": 2892,
+        "providerLatencyMs": 1316
+      },
+      "initialHarnessResult": {
+        "status": "FAIL",
+        "reason": "Overstrict assertion required both supports in one claim, although the complete answer validly used two supported claims.",
+        "failure": "false == true"
+      },
+      "correctedChecks": "Direct complete answer across supported claims; both canonical pages and exact premise quotes verified. Single-conclusion/multiple-support validation is separately covered by unit tests."
+    },
+    {
+      "test": "multi_page_conclusion_fil",
+      "request": {
+        "conversationId": null,
+        "clientMessageId": "f9d2b59e-cca0-4bb6-ae2e-cd83d56a1b3b",
+        "language": "fil",
+        "message": "Can the recommended flowering water level help nutrient uptake, and how deep should it be?",
+        "image": null
+      },
+      "status": "PASS",
+      "http": 200,
+      "httpLatencyMs": 1873,
+      "response": {
+        "conversationId": "15827658-4550-4e45-a9aa-062cb3d9b77d",
+        "assistantMessage": {
+          "id": "80eef6d5-c268-4f0a-a0e9-9855333367eb",
+          "kind": "grounded",
+          "text": "Ang tamang dami ng tubig ay nakakatulong sa mas magandang pagkuha ng sustansya ng halaman.\n\nPanatilihin ang 5 sentimetro na lalim ng tubig sa yugto ng pamumulaklak.",
+          "references": [
+            {
+              "evidenceId": "p048-c01",
+              "documentId": "palaycheck-2020-revised-17da4d5f1102",
+              "pdfPage": 48,
+              "printedLabel": "43",
+              "section": "Water Management"
+            },
+            {
+              "evidenceId": "p050-c01",
+              "documentId": "palaycheck-2020-revised-17da4d5f1102",
+              "pdfPage": 50,
+              "printedLabel": "45",
+              "section": "Water Management"
+            }
+          ]
+        },
+        "pendingGeneral": null
+      },
+      "trace": {
+        "requestId": "b97c1533-1d14-44d8-8f77-ac009af86851",
+        "timestamp": "2026-10-24T12:40:14.543Z",
+        "responseOrigin": "DeepSeek",
+        "upstreamAttempted": true,
+        "upstreamHttpStatus": 200,
+        "providerResponseId": "1083da51-d96c-48f2-9398-96f969b01694",
+        "model": "deepseek-flash",
+        "usage": {
+          "promptTokens": 2754,
+          "completionTokens": 131,
+          "totalTokens": 2885
+        },
+        "modelDecision": "grounded",
+        "apiStatus": 200,
+        "elapsedMs": 1870
+      },
+      "modelOutput": {
+        "kind": "grounded",
+        "language": "fil",
+        "claims": [
+          {
+            "text": "Ang tamang dami ng tubig ay nakakatulong sa mas magandang pagkuha ng sustansya ng halaman.",
+            "supports": [
+              {
+                "evidenceId": "p048-c01",
+                "quote": "The right volume of water promotes\nbetter nutrient uptake"
+              }
+            ]
+          },
+          {
+            "text": "Panatilihin ang 5 sentimetro na lalim ng tubig sa yugto ng pamumulaklak.",
+            "supports": [
+              {
+                "evidenceId": "p050-c01",
+                "quote": "Maintain 5cm water level during the\nflowering stage."
+              }
+            ]
+          }
+        ]
+      },
+      "usage": {
+        "model": "deepseek-flash",
+        "promptTokens": 2754,
+        "completionTokens": 131,
+        "totalTokens": 2885,
+        "providerLatencyMs": 1869
+      },
+      "initialHarnessResult": {
+        "status": "FAIL",
+        "reason": "Overstrict assertion required both supports in one claim, although the complete answer validly used two supported claims.",
+        "failure": "false == true"
+      },
+      "correctedChecks": "Direct complete answer across supported claims; both canonical pages and exact premise quotes verified. Single-conclusion/multiple-support validation is separately covered by unit tests."
+    },
+    {
+      "test": "missing_essential_link",
+      "request": {
+        "conversationId": null,
+        "clientMessageId": "e6bc692c-24b1-4862-a6e9-ce1df8bb0f9f",
+        "language": "en",
+        "message": "Does keeping water at 5 cm during flowering allow me to halve fertilizer without reducing yield?",
+        "image": null
+      },
+      "status": "PASS",
+      "http": 200,
+      "httpLatencyMs": 907,
+      "response": {
+        "conversationId": "19d68fec-6726-4611-abbb-dede1601efd8",
+        "assistantMessage": {
+          "id": "1f4930e5-f8c5-4460-a4b4-5ca2b7347e06",
+          "kind": "clarification",
+          "text": "I cannot yet verify an answer to that question from the reviewed PalayCheck passages available to me. Some pages, tables, and diagrams remain unreviewed. This does not mean your question is outside PalayCheck.",
+          "references": []
+        },
+        "pendingGeneral": null
+      },
+      "trace": {
+        "requestId": "3a0a1938-bee9-4e07-8d77-1b89ebac18d9",
+        "timestamp": "2026-10-24T12:40:16.426Z",
+        "responseOrigin": "local",
+        "upstreamAttempted": true,
+        "upstreamHttpStatus": 200,
+        "providerResponseId": "554dee98-7224-44ef-af00-9ce79abc830e",
+        "model": "deepseek-flash",
+        "usage": {
+          "promptTokens": 2756,
+          "completionTokens": 8,
+          "totalTokens": 2764
+        },
+        "modelDecision": "source_limitation",
+        "apiStatus": 200,
+        "elapsedMs": 894
+      },
+      "modelOutput": {
+        "kind": "source_limitation"
+      },
+      "usage": {
+        "model": "deepseek-flash",
+        "promptTokens": 2756,
+        "completionTokens": 8,
+        "totalTokens": 2764,
+        "providerLatencyMs": 893
+      }
+    }
+  ],
+  "verificationNote": "Corrected the initial live harness offline: do not require all premises in one sentence/claim. No request, response, model output, trace or usage was changed; no further calls were made. The first harness failure prevented conversation ID reuse, so the two live language cases were independent conversations. Mid-conversation language behavior remains covered by preserved focused tests."
+}

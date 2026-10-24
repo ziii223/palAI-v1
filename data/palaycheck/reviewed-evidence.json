@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "sourceSha256": "17da4d5f11024a04230059b075072ad917f9c0e464c4fbd842a547f9f5fb2caa",
+  "coverageStatement": "Partial coverage: 8 AI-assisted visually compared excerpts on physical pages 22, 36, 38, 39, 40, 48, 50 and 59. Other page content remains unreviewed. This is not full-document coverage.",
+  "records": [
+    {
+      "evidenceId": "p022-c01",
+      "sourceSha256": "17da4d5f11024a04230059b075072ad917f9c0e464c4fbd842a547f9f5fb2caa",
+      "originalTextSha256": "c612068ae1bcfc2ae04befa6c9157ea470c5b7915bf7484d83181c6afc7bb230",
+      "reviewedText": "Key Check 2\nWell-leveled field\nImportance. A well-leveled field is a pre-requisite\nto good crop growth and management. It helps\nachieve the following:\n• efficient water management\n• less weed incidence\n• better snail management\n• efficient nutrient utilization\n• uniform crop growth and maturity\n• efficient use of farm machinery",
+      "reviewedTextSha256": "1590407b4ceb6fe17538c0ef42dad32c06dbd7f8be079add4643ac73a61fbb82",
+      "reviewStatus": "verified_excerpt",
+      "reviewedOn": "2026-10-24",
+      "scopeNotes": "Only the heading and importance/bullet list. Excludes preparation steps, 5% claim and quantitative field assessment.",
+      "correctionNotes": [],
+      "documentId": "palaycheck-2020-revised-17da4d5f1102",
+      "pdfPage": 22,
+      "printedLabel": "17",
+      "section": "Land Preparation",
+      "reviewerType": "AI-assisted source comparison",
+      "reviewMethod": "AI-assisted comparison of the exact native-text excerpt with the canonical PDF physical-page render, including visible printed label. Not an independent human/agronomist certification.",
+      "reviewNotes": [
+        "Original raw extraction is unchanged; reviewedText is an exact contiguous substring from this physical page.",
+        "Text and any included numbers/conditions were compared with the visible page; excluded image/chart content is not answer evidence."
+      ]
+    },
+    {
+      "evidenceId": "p036-c01",
+      "sourceSha256": "17da4d5f11024a04230059b075072ad917f9c0e464c4fbd842a547f9f5fb2caa",
+      "originalTextSha256": "e1ce0b3411367b148d1df0d1bd08dc8a94d1226350bcb4ea6d136d8d228738c9",
+      "reviewedText": "Key Check 5\nSufficient nutrients from tillering\nto early panicle initiation (EPI) and\nflowering\nImportance. Nutrient inputs as fertilizers fill\nthe gap between what the crop needs and what\nis currently present in the soil, water, and air.\nSufficient nutrients from tillering to EPI and\nflowering ensure good growth and uniform\npanicle development of the crop. They also\nensure attainment of the crop’s yield potential.\nIf nutrients are insufficient during these stages,\nthere may be slow growth, less tillers and\npanicles, fewer seeds, and lighter grain. Excessive\nnutrients will cause pest damage, lodging, and soil\npollution.",
+      "reviewedTextSha256": "e1ce0b3411367b148d1df0d1bd08dc8a94d1226350bcb4ea6d136d8d228738c9",
+      "reviewStatus": "verified_excerpt",
+      "reviewedOn": "2026-10-24",
+      "scopeNotes": "Native nutrient-importance prose, including the heading defining EPI. No fertilizer rate, diagnostic image interpretation or confirmation of a farmer diagnosis.",
+      "correctionNotes": [],
+      "documentId": "palaycheck-2020-revised-17da4d5f1102",
+      "pdfPage": 36,
+      "printedLabel": "31",
+      "section": "Nutrient Management",
+      "reviewerType": "AI-assisted source comparison",
+      "reviewMethod": "AI-assisted comparison of the exact native-text excerpt with the canonical PDF physical-page render, including visible printed label. Not an independent human/agronomist certification.",
+      "reviewNotes": [
+        "Original raw extraction is unchanged; reviewedText is an exact contiguous substring from this physical page.",
+        "Text and any included numbers/conditions were compared with the visible page; excluded image/chart content is not answer evidence."
+      ]
+    },
+    {
+      "evidenceId": "p038-c01",
+      "sourceSha256": "17da4d5f11024a04230059b075072ad917f9c0e464c4fbd842a547f9f5fb2caa",
+      "originalTextSha256": "d72c299ebaf04e6de030cf0f73fe3aec1479b31559096ec35992d2fe3c1fc719",
+      "reviewedText": "Leaf Color Chart (LCC)\nA tool to visually assess the\nnitrogen status of the rice\ncrop.",
+      "reviewedTextSha256": "9371ecb7bd837cc035bfadae6e09dc571ef8f909d507f5b65ab3a15b59c70281",
+      "reviewStatus": "verified_excerpt",
+      "reviewedOn": "2026-10-24",
+      "reviewMethod": "AI-assisted comparison of the exact native-text excerpt with the canonical PDF physical-page render, including visible printed label. Not an independent human/agronomist certification.",
+      "scopeNotes": "Only the LCC definition paragraph. The plant diagram, MOET description and other page content remain outside this excerpt.",
+      "correctionNotes": [],
+      "documentId": "palaycheck-2020-revised-17da4d5f1102",
+      "pdfPage": 38,
+      "printedLabel": "33",
+      "section": "Nutrient Management",
+      "reviewerType": "AI-assisted source comparison",
+      "reviewNotes": [
+        "Original raw extraction is unchanged; reviewedText is an exact contiguous substring from this physical page.",
+        "Text and any included numbers/conditions were compared with the visible page; excluded image/chart content is not answer evidence."
+      ]
+    },
+    {
+      "evidenceId": "p039-c01",
+      "sourceSha256": "17da4d5f11024a04230059b075072ad917f9c0e464c4fbd842a547f9f5fb2caa",
+      "originalTextSha256": "89b881884693e45c26c6eacb64a32a0191744d2fe8aa072b1b3fdc86a2a0d0b0",
+      "reviewedText": "2. Know the right element, amount, and timing\nof fertilizer application. Make E-A-T right.\nE - Know the right nutrient ELEMENT that\nthe plant needs. Giving the right nutrients\nincreases cost efficiency and attainment of\ntarget yield.\nA - Know the right AMOUNT of fertilizer to\napply. Too much or too little is not good.\nT- Know the right TIMING of fertilizer\napplication to increase efficiency in input\ncost and nutrient uptake.",
+      "reviewedTextSha256": "817b423614ac44cd0124175027004be60d1ef51fb44015ce5c85a259b9383ce2",
+      "reviewStatus": "verified_excerpt",
+      "reviewedOn": "2026-10-24",
+      "scopeNotes": "Only the element/amount/timing explanation. Excludes tool illustrations, nitrogen benefit list and any numerical rate.",
+      "correctionNotes": [],
+      "documentId": "palaycheck-2020-revised-17da4d5f1102",
+      "pdfPage": 39,
+      "printedLabel": "34",
+      "section": "Nutrient Management",
+      "reviewerType": "AI-assisted source comparison",
+      "reviewMethod": "AI-assisted comparison of the exact native-text excerpt with the canonical PDF physical-page render, including visible printed label. Not an independent human/agronomist certification.",
+      "reviewNotes": [
+        "Original raw extraction is unchanged; reviewedText is an exact contiguous substring from this physical page.",
+        "Text and any included numbers/conditions were compared with the visible page; excluded image/chart content is not answer evidence."
+      ]
+    },
+    {
+      "evidenceId": "p040-c01",
+      "sourceSha256": "17da4d5f11024a04230059b075072ad917f9c0e464c4fbd842a547f9f5fb2caa",
+      "originalTextSha256": "06c9398440ff248d583d95d2fae122c91b1c6df25d2cac58a24ad71f3609fad1",
+      "reviewedText": "Right amount. Use results of LCC, RCM, NOPT,\nand MOET/ MOET App as basis in properly\ndetermining the amount of N to apply.\nRight timing.\nIf LCC is available:\n• use LCC every 7 days from 14 DAT or 21\nDAS until early flowering\n• apply N if 6 or more out of 10 leaves are\nbelow 4 (TPR) or 3.5 (DWSR).",
+      "reviewedTextSha256": "d55d9310cc6559d86a38f18ec463c0da20305a70aa3fe0799b76ab7ebe4f4e32",
+      "reviewStatus": "verified_excerpt",
+      "reviewedOn": "2026-10-24",
+      "reviewMethod": "AI-assisted comparison of the exact native-text excerpt with the canonical PDF physical-page render, including visible printed label. Not an independent human/agronomist certification.",
+      "scopeNotes": "Only the nitrogen decision-tool and LCC timing/threshold paragraphs. No photo diagnosis or general fertilizer dose is approved.",
+      "correctionNotes": [],
+      "documentId": "palaycheck-2020-revised-17da4d5f1102",
+      "pdfPage": 40,
+      "printedLabel": "35",
+      "section": "Nutrient Management",
+      "reviewerType": "AI-assisted source comparison",
+      "reviewNotes": [
+        "Original raw extraction is unchanged; reviewedText is an exact contiguous substring from this physical page.",
+        "Text and any included numbers/conditions were compared with the visible page; excluded image/chart content is not answer evidence."
+      ]
+    },
+    {
+      "evidenceId": "p048-c01",
+      "sourceSha256": "17da4d5f11024a04230059b075072ad917f9c0e464c4fbd842a547f9f5fb2caa",
+      "originalTextSha256": "ba8b4a1567808bbb989dd1aa1da81b397ae35158886431037cb9801d83e4126e",
+      "reviewedText": "Key Check 6\nAvoided stress caused by drought\nor excessive water that could affect\nthe growth and yield of the crop\nImportance. The right volume of water promotes\nbetter nutrient uptake, good plant vigor, better\nsnail and weed management, uniform growth\nand maturity, and more efficient farm operations.\nInsufficient water causes drought stress that results\nin low fertilizer efficiency, and low yield and low\ngrain quality. Excessive water results in higher\nirrigation cost, nutrient imbalance, low yield, and\nmore greenhouse gas emissions.",
+      "reviewedTextSha256": "12dd69b195dce60fa4ed055d286fb0ec8f59ba7545556eeeded4b0281ebf165f",
+      "reviewStatus": "verified_excerpt",
+      "reviewedOn": "2026-10-24",
+      "scopeNotes": "Only Key Check 6 and water-importance prose. Photo and symptom assessment/quantitative thresholds are not part of this excerpt.",
+      "correctionNotes": [],
+      "documentId": "palaycheck-2020-revised-17da4d5f1102",
+      "pdfPage": 48,
+      "printedLabel": "43",
+      "section": "Water Management",
+      "reviewerType": "AI-assisted source comparison",
+      "reviewMethod": "AI-assisted comparison of the exact native-text excerpt with the canonical PDF physical-page render, including visible printed label. Not an independent human/agronomist certification.",
+      "reviewNotes": [
+        "Original raw extraction is unchanged; reviewedText is an exact contiguous substring from this physical page.",
+        "Text and any included numbers/conditions were compared with the visible page; excluded image/chart content is not answer evidence."
+      ]
+    },
+    {
+      "evidenceId": "p050-c01",
+      "sourceSha256": "17da4d5f11024a04230059b075072ad917f9c0e464c4fbd842a547f9f5fb2caa",
+      "originalTextSha256": "48d7162a60a66914099cdb94cd88f31d13b7255af46873d5316651cb63643e55",
+      "reviewedText": "3. Maintain 5cm water level during the\nflowering stage.\n4. Achieve 5cm water level during the\nripening stage.",
+      "reviewedTextSha256": "e564dc7ebd81cd6e21899f856ff72ae3cb9a0b6415893392286fe222572237e2",
+      "reviewStatus": "verified_excerpt",
+      "reviewedOn": "2026-10-24",
+      "scopeNotes": "Only recommendations 3 and 4. Verified 5cm at flowering and ripening. Excludes chart, earlier-stage irrigation, soil/season-specific drainage and AWD instructions.",
+      "correctionNotes": [],
+      "documentId": "palaycheck-2020-revised-17da4d5f1102",
+      "pdfPage": 50,
+      "printedLabel": "45",
+      "section": "Water Management",
+      "reviewerType": "AI-assisted source comparison",
+      "reviewMethod": "AI-assisted comparison of the exact native-text excerpt with the canonical PDF physical-page render, including visible printed label. Not an independent human/agronomist certification.",
+      "reviewNotes": [
+        "Original raw extraction is unchanged; reviewedText is an exact contiguous substring from this physical page.",
+        "Text and any included numbers/conditions were compared with the visible page; excluded image/chart content is not answer evidence."
+      ]
+    },
+    {
+      "evidenceId": "p059-c01",
+      "sourceSha256": "17da4d5f11024a04230059b075072ad917f9c0e464c4fbd842a547f9f5fb2caa",
+      "originalTextSha256": "c9cb66807169b0cf592cdce1e0cd2524640e1e967796ea242b460fcc02c92944",
+      "reviewedText": "Recommendations to achieve Key Check 8\n1. Drain field 1-2 weeks before the expected\ndate of harvesting:\n• to attain uniform maturity and ripening\n• to prevent wetting of the grains during\nharvesting\n• for easy operation in the field\n2. Harvest at the right maturity, when 85-\n90% (manual) or 90-95% (if using combine\nharvester) of the grains are golden yellow.",
+      "reviewedTextSha256": "b51a033ec2b3f4fc6220a521db1aaf94d8c700b6dc07eb19bb9fff5b97ecd9ff",
+      "reviewStatus": "verified_excerpt",
+      "reviewedOn": "2026-10-24",
+      "scopeNotes": "Only recommendations 1 and 2. Verified 1-2 weeks before expected harvest and manual 85-90% versus combine 90-95% golden-yellow grains. Excludes maturity diagram, moisture-meter photographs/captions and moisture ranges.",
+      "correctionNotes": [],
+      "documentId": "palaycheck-2020-revised-17da4d5f1102",
+      "pdfPage": 59,
+      "printedLabel": "54",
+      "section": "Harvest Management",
+      "reviewerType": "AI-assisted source comparison",
+      "reviewMethod": "AI-assisted comparison of the exact native-text excerpt with the canonical PDF physical-page render, including visible printed label. Not an independent human/agronomist certification.",
+      "reviewNotes": [
+        "Original raw extraction is unchanged; reviewedText is an exact contiguous substring from this physical page.",
+        "Text and any included numbers/conditions were compared with the visible page; excluded image/chart content is not answer evidence."
+      ]
+    }
+  ]
+}

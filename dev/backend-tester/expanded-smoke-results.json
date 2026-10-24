@@ -1,0 +1,255 @@
+{
+  "recordedAt": "2026-10-24T12:22:16.484Z",
+  "note": "Five bounded cases with synthetic questions; real default provider; no automatic retries. No full-document coverage claim. AI-assisted semantic comparison is recorded separately; no independent human/agronomist certification.",
+  "source": {
+    "documentId": "palaycheck-2020-revised-17da4d5f1102",
+    "title": "PalayCheck System",
+    "edition": "2020 Revised edition",
+    "pageCount": 108,
+    "sha256": "17da4d5f11024a04230059b075072ad917f9c0e464c4fbd842a547f9f5fb2caa",
+    "pdfUrl": "/api/document/pdf"
+  },
+  "reviewedEvidenceCount": 8,
+  "sourceContextUtf8Bytes": 6155,
+  "reviewedTextUtf8Bytes": 2807,
+  "modelMetadata": {
+    "model": "deepseek-flash",
+    "http": 200,
+    "listed": true,
+    "contextWindowTokens": 1048576,
+    "maxOutputTokens": 393216
+  },
+  "results": [
+    {
+      "test": "harvest_readiness",
+      "request": {
+        "conversationId": null,
+        "clientMessageId": "d745993d-5770-4774-b5c8-ffd583bcca87",
+        "language": "en",
+        "message": "Kailan handa nang anihin ang palay kapag mano-mano ang pag-aani?",
+        "image": null
+      },
+      "status": "PASS",
+      "http": 200,
+      "httpLatencyMs": 1308,
+      "response": {
+        "conversationId": "5ee28f2a-ca6f-41a7-b646-a824bbc5a65e",
+        "assistantMessage": {
+          "id": "d92c09d2-227c-456c-b02f-19db66cc5a93",
+          "kind": "grounded",
+          "text": "For manual harvesting, harvest when 85-90% of the grains are golden yellow.",
+          "references": [
+            {
+              "evidenceId": "p059-c01",
+              "documentId": "palaycheck-2020-revised-17da4d5f1102",
+              "pdfPage": 59,
+              "printedLabel": "54",
+              "section": "Harvest Management"
+            }
+          ]
+        },
+        "pendingGeneral": null
+      },
+      "trace": {
+        "requestId": "8fb6d20a-394c-4e7c-86a3-f18cbf9982df",
+        "timestamp": "2026-10-24T12:22:10.897Z",
+        "responseOrigin": "DeepSeek",
+        "upstreamAttempted": true,
+        "upstreamHttpStatus": 200,
+        "providerResponseId": "a9908689-99f8-47a1-b55d-c8fc7e44a48b",
+        "model": "deepseek-flash",
+        "usage": {
+          "promptTokens": 2576,
+          "completionTokens": 84,
+          "totalTokens": 2660
+        },
+        "modelDecision": "grounded",
+        "apiStatus": 200,
+        "elapsedMs": 1299
+      }
+    },
+    {
+      "test": "water_flowering",
+      "request": {
+        "conversationId": null,
+        "clientMessageId": "e92d5712-cd0a-4cbb-8129-4a9beb4ba6c9",
+        "language": "fil",
+        "message": "How deep should the water be while my rice is flowering?",
+        "image": null
+      },
+      "status": "PASS",
+      "http": 200,
+      "httpLatencyMs": 1044,
+      "response": {
+        "conversationId": "bc4a2b86-3365-44d0-aea4-4f4d6f932b16",
+        "assistantMessage": {
+          "id": "9dd2f0d7-5b0c-4c6d-befe-2452f4064d93",
+          "kind": "grounded",
+          "text": "Panatilihin ang 5 cm na lalim ng tubig sa yugto ng pamumulaklak.",
+          "references": [
+            {
+              "evidenceId": "p050-c01",
+              "documentId": "palaycheck-2020-revised-17da4d5f1102",
+              "pdfPage": 50,
+              "printedLabel": "45",
+              "section": "Water Management"
+            }
+          ]
+        },
+        "pendingGeneral": null
+      },
+      "trace": {
+        "requestId": "e05bb0b5-a691-4cce-b601-e1ae75b1ba72",
+        "timestamp": "2026-10-24T12:22:12.200Z",
+        "responseOrigin": "DeepSeek",
+        "upstreamAttempted": true,
+        "upstreamHttpStatus": 200,
+        "providerResponseId": "8b9bb066-aee2-4a41-a25f-15e00df537b8",
+        "model": "deepseek-flash",
+        "usage": {
+          "promptTokens": 2566,
+          "completionTokens": 65,
+          "totalTokens": 2631
+        },
+        "modelDecision": "grounded",
+        "apiStatus": 200,
+        "elapsedMs": 1040
+      }
+    },
+    {
+      "test": "water_contextual_follow_up",
+      "request": {
+        "conversationId": "bc4a2b86-3365-44d0-aea4-4f4d6f932b16",
+        "clientMessageId": "e113bd20-c471-4275-b3c5-ef2cb473ebfc",
+        "language": "en",
+        "message": "Paano naman kapag naghihinog na ang palay?",
+        "image": null
+      },
+      "status": "PASS",
+      "http": 200,
+      "httpLatencyMs": 1079,
+      "response": {
+        "conversationId": "bc4a2b86-3365-44d0-aea4-4f4d6f932b16",
+        "assistantMessage": {
+          "id": "d5d489c2-fccd-4d25-bfc1-783a35ab24ea",
+          "kind": "grounded",
+          "text": "During the ripening stage, reach a 5 cm water level.\n\nDrain the field 1 to 2 weeks before the expected harvest date.",
+          "references": [
+            {
+              "evidenceId": "p050-c01",
+              "documentId": "palaycheck-2020-revised-17da4d5f1102",
+              "pdfPage": 50,
+              "printedLabel": "45",
+              "section": "Water Management"
+            },
+            {
+              "evidenceId": "p059-c01",
+              "documentId": "palaycheck-2020-revised-17da4d5f1102",
+              "pdfPage": 59,
+              "printedLabel": "54",
+              "section": "Harvest Management"
+            }
+          ]
+        },
+        "pendingGeneral": null
+      },
+      "trace": {
+        "requestId": "478f6e0f-59ac-4870-af93-57eb3db8c611",
+        "timestamp": "2026-10-24T12:22:13.258Z",
+        "responseOrigin": "DeepSeek",
+        "upstreamAttempted": true,
+        "upstreamHttpStatus": 200,
+        "providerResponseId": "90e84ed0-d580-48fe-a0a2-f019dc073673",
+        "model": "deepseek-flash",
+        "usage": {
+          "promptTokens": 2610,
+          "completionTokens": 100,
+          "totalTokens": 2710
+        },
+        "modelDecision": "grounded",
+        "apiStatus": 200,
+        "elapsedMs": 1061
+      }
+    },
+    {
+      "test": "vague_farmer_concern",
+      "request": {
+        "conversationId": null,
+        "clientMessageId": "d1258b21-c4c7-4f0f-b71e-0dbbae011112",
+        "language": "fil",
+        "message": "Something seems wrong with my rice. What should I do?",
+        "image": null
+      },
+      "status": "PASS",
+      "http": 200,
+      "httpLatencyMs": 1442,
+      "response": {
+        "conversationId": "a3692544-eea8-48a3-91fa-e2a3555c9157",
+        "assistantMessage": {
+          "id": "b73a3a54-b99d-4051-a53d-c8d9597ffe83",
+          "kind": "clarification",
+          "text": "Ano ang partikular na problema ang napansin mo sa palay mo — halimbawa, kulang ba ang tubig, labis ang pataba, o may ibang sintomas?",
+          "references": []
+        },
+        "pendingGeneral": null
+      },
+      "trace": {
+        "requestId": "ea6bc202-6db7-42b1-ae4c-68031acfb4e1",
+        "timestamp": "2026-10-24T12:22:14.325Z",
+        "responseOrigin": "DeepSeek",
+        "upstreamAttempted": true,
+        "upstreamHttpStatus": 200,
+        "providerResponseId": "d43b4b35-5258-4b99-8fd9-d00a13b8da0e",
+        "model": "deepseek-flash",
+        "usage": {
+          "promptTokens": 2566,
+          "completionTokens": 54,
+          "totalTokens": 2620
+        },
+        "modelDecision": "clarification",
+        "apiStatus": 200,
+        "elapsedMs": 1437
+      }
+    },
+    {
+      "test": "unreviewed_variety_table",
+      "request": {
+        "conversationId": null,
+        "clientMessageId": "6999a561-eb89-4548-bc66-6f042d06f851",
+        "language": "en",
+        "message": "What is the average yield of PSB Rc 2 in the variety table?",
+        "image": null
+      },
+      "status": "PASS",
+      "http": 200,
+      "httpLatencyMs": 720,
+      "response": {
+        "conversationId": "30076278-15e2-4ffc-9923-14e7dec59368",
+        "assistantMessage": {
+          "id": "94574fe6-9247-4433-8063-735f0a5f5e0b",
+          "kind": "clarification",
+          "text": "I cannot yet verify an answer to that question from the reviewed PalayCheck passages available to me. Some pages, tables, and diagrams remain unreviewed. This does not mean your question is outside PalayCheck.",
+          "references": []
+        },
+        "pendingGeneral": null
+      },
+      "trace": {
+        "requestId": "558390b9-c3a3-48ad-8021-80431b9c7e41",
+        "timestamp": "2026-10-24T12:22:15.781Z",
+        "responseOrigin": "local",
+        "upstreamAttempted": true,
+        "upstreamHttpStatus": 200,
+        "providerResponseId": "c541ad82-5116-46de-8d49-e65ad1612aaa",
+        "model": "deepseek-flash",
+        "usage": {
+          "promptTokens": 2571,
+          "completionTokens": 8,
+          "totalTokens": 2579
+        },
+        "modelDecision": "source_limitation",
+        "apiStatus": 200,
+        "elapsedMs": 702
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+* text=auto eol=lf
+
+# Runtime verifies these exact source bytes, including extraction/manifest hashes.
+data/palaycheck/** -text
+*.pdf -text
+*.png -text
+*.jpg -text
+*.jpeg -text
+*.webp -text

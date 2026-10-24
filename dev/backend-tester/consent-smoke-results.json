@@ -1,0 +1,398 @@
+{
+  "recordedAt": "2026-10-24T13:08:50.628Z",
+  "source": {
+    "documentId": "palaycheck-2020-revised-17da4d5f1102",
+    "title": "PalayCheck System",
+    "edition": "2020 Revised edition",
+    "pageCount": 108,
+    "sha256": "17da4d5f11024a04230059b075072ad917f9c0e464c4fbd842a547f9f5fb2caa",
+    "pdfUrl": "/api/document/pdf"
+  },
+  "scopeVerification": "AI-assisted comparison of original PDF title physical 3/printed iii, contents 5/v and scope statement 9/4: irrigated lowland rice crop management. Lunar phases are unrelated non-agricultural knowledge, not an excluded rice passage. No source artifacts altered.",
+  "sourceContextUtf8Bytes": 8588,
+  "reviewedEvidenceCount": 8,
+  "note": "Synthetic public questions only; maximum five bounded calls, 900 output tokens, 30-second provider timeout, no automatic retries. Local cache/Cancel actions are separately recorded. General answer warning tested with actual tester script; final frontend unverified.",
+  "metrics": [
+    {
+      "model": "deepseek-flash",
+      "promptTokens": 3507,
+      "completionTokens": 35,
+      "totalTokens": 3542,
+      "providerLatencyMs": 898,
+      "endToEndLatencyMs": 898,
+      "reviewedEvidenceCount": 8,
+      "sourceContextUtf8Bytes": 8588
+    },
+    {
+      "model": "deepseek-flash",
+      "promptTokens": 3518,
+      "completionTokens": 166,
+      "totalTokens": 3684,
+      "providerLatencyMs": 1231,
+      "endToEndLatencyMs": 1232,
+      "reviewedEvidenceCount": 8,
+      "sourceContextUtf8Bytes": 8588
+    },
+    {
+      "model": "deepseek-flash",
+      "promptTokens": 149,
+      "completionTokens": 243,
+      "totalTokens": 392,
+      "providerLatencyMs": 3114,
+      "endToEndLatencyMs": 3114,
+      "reviewedEvidenceCount": 0,
+      "sourceContextUtf8Bytes": 0
+    },
+    {
+      "model": "deepseek-flash",
+      "promptTokens": 3573,
+      "completionTokens": 60,
+      "totalTokens": 3633,
+      "providerLatencyMs": 1183,
+      "endToEndLatencyMs": 1183,
+      "reviewedEvidenceCount": 8,
+      "sourceContextUtf8Bytes": 8588
+    },
+    {
+      "model": "deepseek-flash",
+      "promptTokens": 3517,
+      "completionTokens": 8,
+      "totalTokens": 3525,
+      "providerLatencyMs": 721,
+      "endToEndLatencyMs": 722,
+      "reviewedEvidenceCount": 8,
+      "sourceContextUtf8Bytes": 8588
+    }
+  ],
+  "rows": [
+    {
+      "name": "outside_no_general_before_consent",
+      "request": {
+        "conversationId": null,
+        "clientMessageId": "70dcef8b-4f6f-4158-9148-11b14c39027a",
+        "language": "en",
+        "message": "Why does the Moon have phases?",
+        "image": null
+      },
+      "http": 200,
+      "httpLatencyMs": 944,
+      "response": {
+        "conversationId": "bb32fe0a-a60e-4be5-83fe-19e392f539a4",
+        "assistantMessage": {
+          "id": "e759c017-903d-499d-82fd-2fb8dc941f79",
+          "kind": "consent_prompt",
+          "text": "This is outside PalayCheck. Would you like a general AI answer?",
+          "references": []
+        },
+        "pendingGeneral": {
+          "id": "7adf1cf9-29c8-4e41-861c-fa706cd59267",
+          "question": "Why does the Moon have phases?"
+        }
+      },
+      "trace": {
+        "requestId": "29938b0f-125c-4f1f-b0c2-91dcb881c0a6",
+        "timestamp": "2026-10-24T13:08:43.393Z",
+        "responseOrigin": "local",
+        "upstreamAttempted": true,
+        "upstreamHttpStatus": 200,
+        "providerResponseId": "1cd54dfd-5171-43eb-a07e-0c2886261133",
+        "model": "deepseek-flash",
+        "usage": {
+          "promptTokens": 3507,
+          "completionTokens": 35,
+          "totalTokens": 3542
+        },
+        "modelDecision": "outside",
+        "apiStatus": 200,
+        "elapsedMs": 913
+      }
+    },
+    {
+      "name": "cancel_local",
+      "request": {
+        "conversationId": "bb32fe0a-a60e-4be5-83fe-19e392f539a4",
+        "pendingId": "7adf1cf9-29c8-4e41-861c-fa706cd59267",
+        "clientActionId": "6361941b-8cf9-4bda-8b21-eecbf7be04dd",
+        "decision": "cancel",
+        "language": "en"
+      },
+      "http": 200,
+      "httpLatencyMs": 5,
+      "response": {
+        "conversationId": "bb32fe0a-a60e-4be5-83fe-19e392f539a4",
+        "assistantMessage": {
+          "id": "aba411d7-980a-4b1b-b5a7-3f39805a07f6",
+          "kind": "acknowledgement",
+          "text": "General answer cancelled.",
+          "references": []
+        },
+        "pendingGeneral": null
+      },
+      "trace": {
+        "requestId": "ecf06c52-7dc8-4235-bd8f-e5a3eaaf156d",
+        "timestamp": "2026-10-24T13:08:44.311Z",
+        "responseOrigin": "local",
+        "upstreamAttempted": false,
+        "upstreamHttpStatus": null,
+        "providerResponseId": null,
+        "model": null,
+        "usage": null,
+        "modelDecision": null,
+        "apiStatus": 200,
+        "elapsedMs": 1
+      }
+    },
+    {
+      "name": "cancel_replay_local",
+      "request": {
+        "conversationId": "bb32fe0a-a60e-4be5-83fe-19e392f539a4",
+        "pendingId": "7adf1cf9-29c8-4e41-861c-fa706cd59267",
+        "clientActionId": "6361941b-8cf9-4bda-8b21-eecbf7be04dd",
+        "decision": "cancel",
+        "language": "en"
+      },
+      "http": 200,
+      "httpLatencyMs": 15,
+      "response": {
+        "conversationId": "bb32fe0a-a60e-4be5-83fe-19e392f539a4",
+        "assistantMessage": {
+          "id": "aba411d7-980a-4b1b-b5a7-3f39805a07f6",
+          "kind": "acknowledgement",
+          "text": "General answer cancelled.",
+          "references": []
+        },
+        "pendingGeneral": null
+      },
+      "trace": {
+        "requestId": "35110589-041a-4d43-9589-9c14478b738c",
+        "timestamp": "2026-10-24T13:08:44.326Z",
+        "responseOrigin": "application cache",
+        "upstreamAttempted": false,
+        "upstreamHttpStatus": null,
+        "providerResponseId": null,
+        "model": null,
+        "usage": null,
+        "modelDecision": null,
+        "apiStatus": 200,
+        "elapsedMs": 1
+      }
+    },
+    {
+      "name": "partial_grounded_plus_pending",
+      "request": {
+        "conversationId": null,
+        "clientMessageId": "cff553b5-a44c-48b9-b587-17cf2d2b3035",
+        "language": "en",
+        "message": "Para saan ginagamit ang Leaf Color Chart? Why does the Moon have phases?",
+        "image": null
+      },
+      "http": 200,
+      "httpLatencyMs": 1247,
+      "response": {
+        "conversationId": "f3866747-4090-4e32-891d-1b991376084b",
+        "assistantMessage": {
+          "id": "cae0d6fe-551e-42df-be98-b0a97a6d969e",
+          "kind": "grounded",
+          "text": "The Leaf Color Chart is a tool used to visually assess the nitrogen status of the rice crop.\n\nThe chart results help determine the right amount of nitrogen fertilizer to apply.",
+          "references": [
+            {
+              "evidenceId": "p038-c01",
+              "documentId": "palaycheck-2020-revised-17da4d5f1102",
+              "pdfPage": 38,
+              "printedLabel": "33",
+              "section": "Nutrient Management"
+            },
+            {
+              "evidenceId": "p040-c01",
+              "documentId": "palaycheck-2020-revised-17da4d5f1102",
+              "pdfPage": 40,
+              "printedLabel": "35",
+              "section": "Nutrient Management"
+            }
+          ]
+        },
+        "pendingGeneral": {
+          "id": "5d483d3a-7007-47d7-b1af-872f94036877",
+          "question": "Why does the Moon have phases?"
+        }
+      },
+      "trace": {
+        "requestId": "fc2ef312-b6dc-435c-a78a-d10c2ba56f15",
+        "timestamp": "2026-10-24T13:08:44.341Z",
+        "responseOrigin": "DeepSeek",
+        "upstreamAttempted": true,
+        "upstreamHttpStatus": 200,
+        "providerResponseId": "3b43234c-7f18-4c67-bf00-a3ae8e9b4bd2",
+        "model": "deepseek-flash",
+        "usage": {
+          "promptTokens": 3518,
+          "completionTokens": 166,
+          "totalTokens": 3684
+        },
+        "modelDecision": "grounded",
+        "apiStatus": 200,
+        "elapsedMs": 1233
+      }
+    },
+    {
+      "name": "continue_filipino",
+      "request": {
+        "conversationId": "f3866747-4090-4e32-891d-1b991376084b",
+        "pendingId": "5d483d3a-7007-47d7-b1af-872f94036877",
+        "clientActionId": "42be8bc9-6844-4a12-8a3e-c85c249513b1",
+        "decision": "continue",
+        "language": "fil"
+      },
+      "http": 200,
+      "httpLatencyMs": 3116,
+      "response": {
+        "conversationId": "f3866747-4090-4e32-891d-1b991376084b",
+        "assistantMessage": {
+          "id": "b08bdaa6-c38c-453a-93e2-b341d03f7d6c",
+          "kind": "general",
+          "text": "Ang Buwan ay may mga yugto dahil umiikot ito sa Earth mga isang beses kada buwan, at iba-iba ang bahagi ng naaarawan na nakikita natin mula rito. Hindi ito sariling liwanag ng Buwan kundi sinasalamin lang nito ang liwanag ng Araw. Kapag ang Buwan ay nasa pagitan ng Earth at Araw, madilim ang nakikita natin (bagong buwan). Kapag nasa kabilang dulo naman ito, buo ang nakikitang liwanag (kabilugan ng buwan). Sa mga araw sa gitna, hugis pakwan o gasgas ang itsura nito — iyon ang mga bahagyang yugto. Ang buong siklo ay tumatagal ng mga 29 hanggang 30 araw. Tandaan lang na ito ay pangkalahatang paliwanag; ang eksaktong oras ng bawat yugto ay nag-iiba kada buwan.",
+          "references": []
+        },
+        "pendingGeneral": null
+      },
+      "trace": {
+        "requestId": "7aa88133-a8f2-4e1e-9f74-d47d0aef9ddd",
+        "timestamp": "2026-10-24T13:08:45.576Z",
+        "responseOrigin": "DeepSeek",
+        "upstreamAttempted": true,
+        "upstreamHttpStatus": 200,
+        "providerResponseId": "41a610ea-0120-4176-ba80-c742ea976a18",
+        "model": "deepseek-flash",
+        "usage": {
+          "promptTokens": 149,
+          "completionTokens": 243,
+          "totalTokens": 392
+        },
+        "modelDecision": "general",
+        "apiStatus": 200,
+        "elapsedMs": 3115
+      }
+    },
+    {
+      "name": "continue_replay_local",
+      "request": {
+        "conversationId": "f3866747-4090-4e32-891d-1b991376084b",
+        "pendingId": "5d483d3a-7007-47d7-b1af-872f94036877",
+        "clientActionId": "42be8bc9-6844-4a12-8a3e-c85c249513b1",
+        "decision": "continue",
+        "language": "fil"
+      },
+      "http": 200,
+      "httpLatencyMs": 3,
+      "response": {
+        "conversationId": "f3866747-4090-4e32-891d-1b991376084b",
+        "assistantMessage": {
+          "id": "b08bdaa6-c38c-453a-93e2-b341d03f7d6c",
+          "kind": "general",
+          "text": "Ang Buwan ay may mga yugto dahil umiikot ito sa Earth mga isang beses kada buwan, at iba-iba ang bahagi ng naaarawan na nakikita natin mula rito. Hindi ito sariling liwanag ng Buwan kundi sinasalamin lang nito ang liwanag ng Araw. Kapag ang Buwan ay nasa pagitan ng Earth at Araw, madilim ang nakikita natin (bagong buwan). Kapag nasa kabilang dulo naman ito, buo ang nakikitang liwanag (kabilugan ng buwan). Sa mga araw sa gitna, hugis pakwan o gasgas ang itsura nito — iyon ang mga bahagyang yugto. Ang buong siklo ay tumatagal ng mga 29 hanggang 30 araw. Tandaan lang na ito ay pangkalahatang paliwanag; ang eksaktong oras ng bawat yugto ay nag-iiba kada buwan.",
+          "references": []
+        },
+        "pendingGeneral": null
+      },
+      "trace": {
+        "requestId": "9ef17d3f-3e2d-4bba-ac7b-f143fcacc76b",
+        "timestamp": "2026-10-24T13:08:48.694Z",
+        "responseOrigin": "application cache",
+        "upstreamAttempted": false,
+        "upstreamHttpStatus": null,
+        "providerResponseId": null,
+        "model": null,
+        "usage": null,
+        "modelDecision": null,
+        "apiStatus": 200,
+        "elapsedMs": 1
+      }
+    },
+    {
+      "name": "return_to_grounding_english",
+      "request": {
+        "conversationId": "f3866747-4090-4e32-891d-1b991376084b",
+        "clientMessageId": "6a53fcf5-c1b3-493d-88da-03eb45f0eece",
+        "language": "en",
+        "message": "Gaano kalalim ang tubig habang namumulaklak ang palay?",
+        "image": null
+      },
+      "http": 200,
+      "httpLatencyMs": 1199,
+      "response": {
+        "conversationId": "f3866747-4090-4e32-891d-1b991376084b",
+        "assistantMessage": {
+          "id": "141e907d-992a-4b82-ab6f-c3a0ec0aa2d9",
+          "kind": "grounded",
+          "text": "During the flowering stage, keep the water level at about 5 cm.",
+          "references": [
+            {
+              "evidenceId": "p050-c01",
+              "documentId": "palaycheck-2020-revised-17da4d5f1102",
+              "pdfPage": 50,
+              "printedLabel": "45",
+              "section": "Water Management"
+            }
+          ]
+        },
+        "pendingGeneral": null
+      },
+      "trace": {
+        "requestId": "a10b7787-9b60-436c-a1f2-109ce0e279e6",
+        "timestamp": "2026-10-24T13:08:48.709Z",
+        "responseOrigin": "DeepSeek",
+        "upstreamAttempted": true,
+        "upstreamHttpStatus": 200,
+        "providerResponseId": "5cc2ff28-2fef-4e54-9fa6-431afe980fbc",
+        "model": "deepseek-flash",
+        "usage": {
+          "promptTokens": 3573,
+          "completionTokens": 60,
+          "totalTokens": 3633
+        },
+        "modelDecision": "grounded",
+        "apiStatus": 200,
+        "elapsedMs": 1183
+      }
+    },
+    {
+      "name": "unreviewed_not_outside_filipino",
+      "request": {
+        "conversationId": null,
+        "clientMessageId": "78d21922-a3b0-420d-a954-efd9b3db7a1d",
+        "language": "fil",
+        "message": "What is the average yield of PSB Rc 2 in the variety table?",
+        "image": null
+      },
+      "http": 200,
+      "httpLatencyMs": 734,
+      "response": {
+        "conversationId": "e1dbaeb8-e24f-4665-bb89-2738e97aa956",
+        "assistantMessage": {
+          "id": "b461a9af-71a4-4f34-828a-457ce18c9919",
+          "kind": "clarification",
+          "text": "Hindi ko pa makumpirma ang sagot sa tanong na iyan mula sa nasuring mga sipi ng PalayCheck na magagamit ko. May mga pahina, talahanayan, at diagram na hindi pa nasusuri. Hindi ito nangangahulugang wala sa PalayCheck ang iyong tanong.",
+          "references": []
+        },
+        "pendingGeneral": null
+      },
+      "trace": {
+        "requestId": "b3ddb3d2-14d7-4f98-8561-61818f7c2ffe",
+        "timestamp": "2026-10-24T13:08:49.905Z",
+        "responseOrigin": "local",
+        "upstreamAttempted": true,
+        "upstreamHttpStatus": 200,
+        "providerResponseId": "0f74ef39-baa2-43e8-9204-4cf91fe61f99",
+        "model": "deepseek-flash",
+        "usage": {
+          "promptTokens": 3517,
+          "completionTokens": 8,
+          "totalTokens": 3525
+        },
+        "modelDecision": "source_limitation",
+        "apiStatus": 200,
+        "elapsedMs": 722
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+body { margin: 0; background: #f5f5f5; color: #202020; font: 16px/1.5 system-ui, sans-serif; }
+main { max-width: 900px; margin: 24px auto; padding: 16px; }
+label { display: block; margin-top: 12px; font-weight: 600; }
+textarea, select, button { font: inherit; padding: 8px; }
+textarea { width: 100%; box-sizing: border-box; }
+.actions { display: flex; gap: 12px; margin-top: 16px; }
+article, pre { background: white; padding: 16px; border: 1px solid #aaa; }
+article { margin-bottom: 16px; }
+.answer, pre { white-space: pre-wrap; overflow-wrap: anywhere; }
+a { color: #14539a; overflow-wrap: anywhere; }
+:focus-visible { outline: 3px solid #14539a; outline-offset: 3px; }
+
+.general-warning { color: #b00020; font-weight: 700; border-left: 4px solid #b00020; padding-left: 0.75rem; }

@@ -1,0 +1,407 @@
+{
+  "schemaVersion": 1,
+  "sourceSha256": "17da4d5f11024a04230059b075072ad917f9c0e464c4fbd842a547f9f5fb2caa",
+  "inspectedOn": "2026-10-24",
+  "records": [
+    {
+      "evidenceId": "p008-c01",
+      "pdfPage": 8,
+      "printedLabel": "3",
+      "section": "Abbreviations, acronyms, and symbols used:",
+      "specificIssues": [
+        "Comparison glyphs require review: visible greater-than-or-equal signs can extract as > with a separate vector underline. No operator was silently repaired."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p030-c01",
+      "pdfPage": 30,
+      "printedLabel": "25",
+      "section": "Crop Establishment",
+      "specificIssues": [
+        "Raster images/photographs/diagram contents are not transcribed by native text extraction; captions alone do not describe all visual evidence.",
+        "Table candidate: flattened reading order and unverified cell grid may lose row/column associations or merged-cell text. Review the source before using table values.",
+        "Font-specific private-use checkmark/bullet glyphs retained unchanged; no semantic replacement inferred."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p032-c01",
+      "pdfPage": 32,
+      "printedLabel": "27",
+      "section": "Crop Establishment",
+      "specificIssues": [
+        "Raster images/photographs/diagram contents are not transcribed by native text extraction; captions alone do not describe all visual evidence.",
+        "Table candidate: flattened reading order and unverified cell grid may lose row/column associations or merged-cell text. Review the source before using table values."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p033-c01",
+      "pdfPage": 33,
+      "printedLabel": "28",
+      "section": "Crop Establishment",
+      "specificIssues": [
+        "Table candidate: flattened reading order and unverified cell grid may lose row/column associations or merged-cell text. Review the source before using table values."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p041-c01",
+      "pdfPage": 41,
+      "printedLabel": "36",
+      "section": "Nutrient Management",
+      "specificIssues": [
+        "Raster images/photographs/diagram contents are not transcribed by native text extraction; captions alone do not describe all visual evidence.",
+        "Table candidate: flattened reading order and unverified cell grid may lose row/column associations or merged-cell text. Review the source before using table values.",
+        "Comparison glyphs require review: visible greater-than-or-equal signs can extract as > with a separate vector underline. No operator was silently repaired.",
+        "Font-specific private-use checkmark/bullet glyphs retained unchanged; no semantic replacement inferred."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p042-c01",
+      "pdfPage": 42,
+      "printedLabel": "37",
+      "section": "Nutrient Management",
+      "specificIssues": [
+        "Raster images/photographs/diagram contents are not transcribed by native text extraction; captions alone do not describe all visual evidence.",
+        "Table candidate: flattened reading order and unverified cell grid may lose row/column associations or merged-cell text. Review the source before using table values.",
+        "Font-specific private-use checkmark/bullet glyphs retained unchanged; no semantic replacement inferred."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p043-c01",
+      "pdfPage": 43,
+      "printedLabel": "38",
+      "section": "Nutrient Management",
+      "specificIssues": [
+        "Table candidate: flattened reading order and unverified cell grid may lose row/column associations or merged-cell text. Review the source before using table values.",
+        "Font-specific private-use checkmark/bullet glyphs retained unchanged; no semantic replacement inferred."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p044-c01",
+      "pdfPage": 44,
+      "printedLabel": "39",
+      "section": "Nutrient Management",
+      "specificIssues": [
+        "Raster images/photographs/diagram contents are not transcribed by native text extraction; captions alone do not describe all visual evidence.",
+        "Table candidate: flattened reading order and unverified cell grid may lose row/column associations or merged-cell text. Review the source before using table values."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p045-c01",
+      "pdfPage": 45,
+      "printedLabel": "40",
+      "section": "Nutrient Management",
+      "specificIssues": [
+        "Raster images/photographs/diagram contents are not transcribed by native text extraction; captions alone do not describe all visual evidence.",
+        "Table candidate: flattened reading order and unverified cell grid may lose row/column associations or merged-cell text. Review the source before using table values.",
+        "Font-specific private-use checkmark/bullet glyphs retained unchanged; no semantic replacement inferred."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p049-c01",
+      "pdfPage": 49,
+      "printedLabel": "44",
+      "section": "Water Management",
+      "specificIssues": [
+        "Raster images/photographs/diagram contents are not transcribed by native text extraction; captions alone do not describe all visual evidence.",
+        "Comparison glyphs require review: visible greater-than-or-equal signs can extract as > with a separate vector underline. No operator was silently repaired."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p053-c01",
+      "pdfPage": 53,
+      "printedLabel": "48",
+      "section": "Pest Management",
+      "specificIssues": [
+        "Table candidate: flattened reading order and unverified cell grid may lose row/column associations or merged-cell text. Review the source before using table values.",
+        "Comparison glyphs require review: visible greater-than-or-equal signs can extract as > with a separate vector underline. No operator was silently repaired."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p054-c01",
+      "pdfPage": 54,
+      "printedLabel": "49",
+      "section": "Pest Management",
+      "specificIssues": [
+        "Table candidate: flattened reading order and unverified cell grid may lose row/column associations or merged-cell text. Review the source before using table values.",
+        "Comparison glyphs require review: visible greater-than-or-equal signs can extract as > with a separate vector underline. No operator was silently repaired."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p056-c01",
+      "pdfPage": 56,
+      "printedLabel": "51",
+      "section": "Pest Management",
+      "specificIssues": [
+        "Raster images/photographs/diagram contents are not transcribed by native text extraction; captions alone do not describe all visual evidence.",
+        "Table candidate: flattened reading order and unverified cell grid may lose row/column associations or merged-cell text. Review the source before using table values."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p058-c01",
+      "pdfPage": 58,
+      "printedLabel": "53",
+      "section": "Harvest Management",
+      "specificIssues": [
+        "Raster images/photographs/diagram contents are not transcribed by native text extraction; captions alone do not describe all visual evidence.",
+        "Comparison glyphs require review: visible greater-than-or-equal signs can extract as > with a separate vector underline. No operator was silently repaired.",
+        "Font-specific private-use checkmark/bullet glyphs retained unchanged; no semantic replacement inferred."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p063-c01",
+      "pdfPage": 63,
+      "printedLabel": "58",
+      "section": "Postharvest Management",
+      "specificIssues": [
+        "Raster images/photographs/diagram contents are not transcribed by native text extraction; captions alone do not describe all visual evidence.",
+        "Table candidate: flattened reading order and unverified cell grid may lose row/column associations or merged-cell text. Review the source before using table values."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p072-c01",
+      "pdfPage": 72,
+      "printedLabel": "67",
+      "section": "Summary of Key Checks and Assessment, Monitoring, Analysis, and Improvement",
+      "specificIssues": [
+        "Raster images/photographs/diagram contents are not transcribed by native text extraction; captions alone do not describe all visual evidence.",
+        "Reading coordinates rotated clockwise 90 degrees; original rawText retained. Multiline table headers/cells can still interleave.",
+        "Crop-stage chart labels, ticks and illustrations are raster content. Native text captures its title and DAS/DAT only, not the complete chart."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p073-c01",
+      "pdfPage": 73,
+      "printedLabel": "68",
+      "section": "Summary of Key Checks and Assessment, Monitoring, Analysis, and Improvement",
+      "specificIssues": [
+        "Reading coordinates rotated clockwise 90 degrees; original rawText retained. Multiline table headers/cells can still interleave.",
+        "Table candidate: flattened reading order and unverified cell grid may lose row/column associations or merged-cell text. Review the source before using table values.",
+        "Font-specific private-use checkmark/bullet glyphs retained unchanged; no semantic replacement inferred.",
+        "Schedule shading and rotated column headers are not represented reliably as text; do not infer stage/check relationships from extraction."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p077-c01",
+      "pdfPage": 77,
+      "printedLabel": "72",
+      "section": "Annexes",
+      "specificIssues": [
+        "Table candidate: flattened reading order and unverified cell grid may lose row/column associations or merged-cell text. Review the source before using table values.",
+        "Source cross-reference discrepancy: Annex 3a says Annex 4 is on printed p. 72, but Annex 4 actually begins on physical page 79 / printed p. 74. Preserve source wording; resolve citations from the manifest, not internal page mentions."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p078-c01",
+      "pdfPage": 78,
+      "printedLabel": "73",
+      "section": "Annexes",
+      "specificIssues": [
+        "Table candidate: flattened reading order and unverified cell grid may lose row/column associations or merged-cell text. Review the source before using table values."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p079-c01",
+      "pdfPage": 79,
+      "printedLabel": "74",
+      "section": "Annexes",
+      "specificIssues": [
+        "Raster images/photographs/diagram contents are not transcribed by native text extraction; captions alone do not describe all visual evidence.",
+        "Table candidate: flattened reading order and unverified cell grid may lose row/column associations or merged-cell text. Review the source before using table values."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p089-c01",
+      "pdfPage": 89,
+      "printedLabel": "84",
+      "section": "Annexes",
+      "specificIssues": [
+        "Raster images/photographs/diagram contents are not transcribed by native text extraction; captions alone do not describe all visual evidence.",
+        "Table candidate: flattened reading order and unverified cell grid may lose row/column associations or merged-cell text. Review the source before using table values."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p090-c01",
+      "pdfPage": 90,
+      "printedLabel": "85",
+      "section": "Annexes",
+      "specificIssues": [
+        "Table candidate: flattened reading order and unverified cell grid may lose row/column associations or merged-cell text. Review the source before using table values."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p092-c01",
+      "pdfPage": 92,
+      "printedLabel": "87",
+      "section": "Annexes",
+      "specificIssues": [
+        "Table candidate: flattened reading order and unverified cell grid may lose row/column associations or merged-cell text. Review the source before using table values."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p096-c01",
+      "pdfPage": 96,
+      "printedLabel": "91",
+      "section": "Appendices",
+      "specificIssues": [
+        "Reading coordinates rotated clockwise 90 degrees; original rawText retained. Multiline table headers/cells can still interleave.",
+        "Table candidate: flattened reading order and unverified cell grid may lose row/column associations or merged-cell text. Review the source before using table values."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p097-c01",
+      "pdfPage": 97,
+      "printedLabel": "92",
+      "section": "Appendices",
+      "specificIssues": [
+        "Reading coordinates rotated clockwise 90 degrees; original rawText retained. Multiline table headers/cells can still interleave.",
+        "Table candidate: flattened reading order and unverified cell grid may lose row/column associations or merged-cell text. Review the source before using table values."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p098-c01",
+      "pdfPage": 98,
+      "printedLabel": "93",
+      "section": "Appendices",
+      "specificIssues": [
+        "Reading coordinates rotated clockwise 90 degrees; original rawText retained. Multiline table headers/cells can still interleave.",
+        "Table candidate: flattened reading order and unverified cell grid may lose row/column associations or merged-cell text. Review the source before using table values."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p099-c01",
+      "pdfPage": 99,
+      "printedLabel": "94",
+      "section": "Appendices",
+      "specificIssues": [
+        "Reading coordinates rotated clockwise 90 degrees; original rawText retained. Multiline table headers/cells can still interleave.",
+        "Table candidate: flattened reading order and unverified cell grid may lose row/column associations or merged-cell text. Review the source before using table values."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p100-c01",
+      "pdfPage": 100,
+      "printedLabel": "95",
+      "section": "Appendices",
+      "specificIssues": [
+        "Reading coordinates rotated clockwise 90 degrees; original rawText retained. Multiline table headers/cells can still interleave.",
+        "Table candidate: flattened reading order and unverified cell grid may lose row/column associations or merged-cell text. Review the source before using table values."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p101-c01",
+      "pdfPage": 101,
+      "printedLabel": "96",
+      "section": "Appendices",
+      "specificIssues": [
+        "Reading coordinates rotated clockwise 90 degrees; original rawText retained. Multiline table headers/cells can still interleave.",
+        "Table candidate: flattened reading order and unverified cell grid may lose row/column associations or merged-cell text. Review the source before using table values."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p102-c01",
+      "pdfPage": 102,
+      "printedLabel": "97",
+      "section": "Appendices",
+      "specificIssues": [
+        "Reading coordinates rotated clockwise 90 degrees; original rawText retained. Multiline table headers/cells can still interleave.",
+        "Table candidate: flattened reading order and unverified cell grid may lose row/column associations or merged-cell text. Review the source before using table values."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p103-c01",
+      "pdfPage": 103,
+      "printedLabel": "98",
+      "section": "Appendices",
+      "specificIssues": [
+        "Reading coordinates rotated clockwise 90 degrees; original rawText retained. Multiline table headers/cells can still interleave.",
+        "Table candidate: flattened reading order and unverified cell grid may lose row/column associations or merged-cell text. Review the source before using table values."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p104-c01",
+      "pdfPage": 104,
+      "printedLabel": "99",
+      "section": "Appendices",
+      "specificIssues": [
+        "Reading coordinates rotated clockwise 90 degrees; original rawText retained. Multiline table headers/cells can still interleave.",
+        "Table candidate: flattened reading order and unverified cell grid may lose row/column associations or merged-cell text. Review the source before using table values."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    },
+    {
+      "evidenceId": "p105-c01",
+      "pdfPage": 105,
+      "printedLabel": "100",
+      "section": "Appendices",
+      "specificIssues": [
+        "Reading coordinates rotated clockwise 90 degrees; original rawText retained. Multiline table headers/cells can still interleave.",
+        "Table candidate: flattened reading order and unverified cell grid may lose row/column associations or merged-cell text. Review the source before using table values."
+      ],
+      "reviewStatus": "withheld_not_verified",
+      "decision": "May identify source coverage, but cannot support an answer until a separate verified excerpt exists."
+    }
+  ]
+}

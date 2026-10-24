@@ -1,0 +1,65 @@
+{
+  "verifiedOn": "2026-10-24",
+  "timezone": "Asia/Singapore",
+  "status": "PASS",
+  "sourceSha256": "17da4d5f11024a04230059b075072ad917f9c0e464c4fbd842a547f9f5fb2caa",
+  "pdfOpenAndRenderPageCount": 108,
+  "pageRecordCount": 108,
+  "evidenceRecordCount": 105,
+  "allFileHashesMatch": true,
+  "allEvidenceTextHashesMatch": true,
+  "uniqueStableIds": true,
+  "allPassagesStayOnOnePhysicalPage": true,
+  "independentAsciiCharacterInventoryChecks": 108,
+  "representativeMappings": [
+    {
+      "evidenceId": "p003-c01",
+      "pdfPage": 3,
+      "printedLabel": "iii",
+      "matchedText": "2020 Revised edition",
+      "groundingStatus": "non_substantive",
+      "visuallyComparedToOriginalRender": true
+    },
+    {
+      "evidenceId": "p040-c01",
+      "pdfPage": 40,
+      "printedLabel": "35",
+      "matchedText": "use LCC every 7 days",
+      "groundingStatus": "native_text_only",
+      "visuallyComparedToOriginalRender": true
+    },
+    {
+      "evidenceId": "p053-c01",
+      "pdfPage": 53,
+      "printedLabel": "48",
+      "matchedText": "Insect pest level associated with significant yield loss",
+      "groundingStatus": "requires_visual_review",
+      "visuallyComparedToOriginalRender": true
+    },
+    {
+      "evidenceId": "p072-c01",
+      "pdfPage": 72,
+      "printedLabel": "67",
+      "matchedText": "CROP MANAGEMENT AREA",
+      "groundingStatus": "requires_visual_review",
+      "visuallyComparedToOriginalRender": true
+    },
+    {
+      "evidenceId": "p077-c01",
+      "pdfPage": 77,
+      "printedLabel": "72",
+      "matchedText": "Schematic Guide for Monitoring Key",
+      "groundingStatus": "requires_visual_review",
+      "visuallyComparedToOriginalRender": true
+    },
+    {
+      "evidenceId": "p096-c01",
+      "pdfPage": 96,
+      "printedLabel": "91",
+      "matchedText": "PSB Rc 2 Nahalin 5.1 7.1 123 99 15",
+      "groundingStatus": "requires_visual_review",
+      "visuallyComparedToOriginalRender": true
+    }
+  ],
+  "limits": "Integrity and representative visual mapping checks only. Does not certify all table values, diagram content or agricultural claims. No OCR or model calls."
+}

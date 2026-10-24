@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-24",
+  "task": "BE-10 photo implementation",
+  "liveVision": "UNVERIFIED",
+  "realDeepSeekImageRequests": 0,
+  "reason": "No non-sensitive local crop photo at dev/provider-samples/photo.*. Screenshots/design assets excluded. No fabricated crop interpretation.",
+  "configuredModel": "deepseek-flash",
+  "officialRequestFormatSource": "https://api-docs.deepseek.com/guides/vision/",
+  "providerFormat": "user content array: text + image_url with a matching base64 data URL",
+  "serverLimits": {
+    "formats": ["image/jpeg", "image/png", "image/webp"],
+    "decodedBytes": 4194304,
+    "maxSidePixels": 8192,
+    "maxTotalPixels": 16777216,
+    "activePhotosPerConversation": 1,
+    "photoConversationsPerProcess": 16
+  },
+  "tests": {
+    "testCount": 58,
+    "photoTests": 10,
+    "status": "PASS",
+    "build": "PASS",
+    "typecheck": "PASS",
+    "providerResponses": "MOCKED for automated photo tests; not real vision results",
+    "decoders": "Real FFprobe/FFmpeg on synthetic still-image fixtures"
+  },
+  "browserVerification": {
+    "actualBrowser": true,
+    "fixturePurpose": "Synthetic colored rectangles for preview/orientation only; never sent to DeepSeek",
+    "orientationFixture": {
+      "originalPixels": [80, 40],
+      "exifOrientation": 6,
+      "preparedPixels": [40, 80],
+      "preparedMime": "image/jpeg"
+    },
+    "replacementPreviewPixels": [120, 60],
+    "removeClearsPreview": true,
+    "phoneCaptureHint": "environment",
+    "recordControlStillEnabled": true,
+    "chatResultBeforeAndAfter": "No request yet.",
+    "cameraCapture": "UNVERIFIED"
+  },
+  "runningEndpointCheck": {
+    "processId": 22132,
+    "leftRunning": true,
+    "malformedPhotoHttp": 422,
+    "malformedPhotoCode": "UNREADABLE_IMAGE",
+    "transcriptionValidationProbeHttp": 400,
+    "consentValidationProbeHttp": 400,
+    "upstreamAttemptedForMalformedPhoto": false,
+    "assetsMatchDisk": ["index.html", "photo.js", "tester.js", "audio.js"],
+    "url": "http://127.0.0.1:3001/dev/backend-tester/"
+  },
+  "visionUsage": null,
+  "visionLatencyMs": null,
+  "screenshots": [
+    "output/playwright/photo-orientation-preview.jpg",
+    "output/playwright/photo-controls.jpg"
+  ]
+}

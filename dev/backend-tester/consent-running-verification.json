@@ -1,0 +1,187 @@
+{
+  "recordedAt": "2026-10-24T13:30:16.367Z",
+  "note": "Actual browser submissions through the running localhost:3001 tester, fresh conversations and tester-created fresh UUIDs. No interception, fixture or consent bypass. Two before-refresh assessment calls plus three after-refresh provider calls; no retries.",
+  "before": {
+    "birthday": {
+      "conversationId": "29b59794-2c9f-4b71-a177-891c0d613c69",
+      "assistantMessage": {
+        "id": "115391e1-6869-49d2-bc1b-078ad9d48ce7",
+        "kind": "clarification",
+        "text": "I can only provide source-backed rice guidance from the reviewed PalayCheck passages. I cannot answer that unrelated request here.",
+        "references": []
+      },
+      "pendingGeneral": null
+    },
+    "mixed": {
+      "conversationId": "709a9fb7-f1b4-4a7f-8f4a-443b350482dd",
+      "assistantMessage": {
+        "id": "99220aa8-36db-40ab-9fe7-eb986d5d2c1d",
+        "kind": "grounded",
+        "text": "The Leaf Color Chart is a tool used to visually assess the nitrogen status of the rice crop.\n\nIts results can serve as a basis for properly deciding how much nitrogen fertilizer to apply.",
+        "references": [
+          {
+            "evidenceId": "p038-c01",
+            "documentId": "palaycheck-2020-revised-17da4d5f1102",
+            "pdfPage": 38,
+            "printedLabel": "33",
+            "section": "Nutrient Management"
+          },
+          {
+            "evidenceId": "p040-c01",
+            "documentId": "palaycheck-2020-revised-17da4d5f1102",
+            "pdfPage": 40,
+            "printedLabel": "35",
+            "section": "Nutrient Management"
+          },
+          {
+            "evidenceId": "p039-c01",
+            "documentId": "palaycheck-2020-revised-17da4d5f1102",
+            "pdfPage": 39,
+            "printedLabel": "34",
+            "section": "Nutrient Management"
+          }
+        ]
+      },
+      "pendingGeneral": null
+    }
+  },
+  "after": {
+    "birthday": {
+      "conversationId": "14ec7e34-62c8-482d-9672-cfc843673630",
+      "assistantMessage": {
+        "id": "48e075a4-5e52-41b2-a21c-68dc2467bc7b",
+        "kind": "consent_prompt",
+        "text": "This is outside PalayCheck. Would you like a general AI answer?",
+        "references": []
+      },
+      "pendingGeneral": {
+        "id": "62297381-09d4-4cd6-a891-c3a4266cb696",
+        "question": "Write a short birthday greeting for my friend."
+      }
+    },
+    "mixed": {
+      "conversationId": "2bb3d036-4aa2-4a1a-8c60-dff844360bf8",
+      "assistantMessage": {
+        "id": "6cabbcd0-0737-4e1b-8817-b53d33412732",
+        "kind": "grounded",
+        "text": "The Leaf Color Chart is a tool used to visually assess the nitrogen status of the rice crop.\n\nResults from the Leaf Color Chart are used as a basis for determining the right amount of nitrogen fertilizer to apply.",
+        "references": [
+          {
+            "evidenceId": "p038-c01",
+            "documentId": "palaycheck-2020-revised-17da4d5f1102",
+            "pdfPage": 38,
+            "printedLabel": "33",
+            "section": "Nutrient Management"
+          },
+          {
+            "evidenceId": "p040-c01",
+            "documentId": "palaycheck-2020-revised-17da4d5f1102",
+            "pdfPage": 40,
+            "printedLabel": "35",
+            "section": "Nutrient Management"
+          }
+        ]
+      },
+      "pendingGeneral": {
+        "id": "1965b7fd-8238-41dd-845d-87d4ec35257c",
+        "question": "write a birthday greeting for my friend"
+      }
+    },
+    "continued": {
+      "conversationId": "14ec7e34-62c8-482d-9672-cfc843673630",
+      "assistantMessage": {
+        "id": "ddb2dc0f-0ec0-4e13-9def-679a9fcd79c9",
+        "kind": "general",
+        "text": "Happy birthday to a great friend! Wishing you a day full of joy, good food, and the people you care about. May the year ahead bring you good health and plenty of reasons to smile. Enjoy your special day!",
+        "references": []
+      },
+      "pendingGeneral": null
+    },
+    "cancelled": {
+      "conversationId": "2bb3d036-4aa2-4a1a-8c60-dff844360bf8",
+      "assistantMessage": {
+        "id": "3110c25f-1668-4c91-a193-f0f8b818d646",
+        "kind": "acknowledgement",
+        "text": "Kinansela ang pangkalahatang sagot.",
+        "references": []
+      },
+      "pendingGeneral": null
+    }
+  },
+  "browserChecks": {
+    "outsideControlsVisible": true,
+    "mixedControlsVisibleAlongsideGrounded": true,
+    "mixedReferencePages": [
+      38,
+      40
+    ],
+    "generalWarning": "This is outside PalayCheck PDF",
+    "generalWarningColor": "rgb(176, 0, 32)",
+    "generalReferenceLinks": 0,
+    "priorWarningUnchangedAfterSelectingFilipino": true,
+    "cancelLanguage": "fil",
+    "cancelRetainedGroundedReferences": true
+  },
+  "serverVerification": {
+    "oldPid": 4252,
+    "oldStartedUtc": "2026-10-24T12:43:52.5548130Z",
+    "oldConsentProbeHttp": 404,
+    "assetsMatchedDiskBeforeAndAfter": ["index.html", "tester.js", "style.css"],
+    "confirmedProjectCommand": "node --env-file-if-exists=.env --import tsx dev/backend-tester/server.ts",
+    "newPid": 6340,
+    "newConsentProbeHttp": 400,
+    "newConsentProbeCode": "INVALID_CONSENT",
+    "health": "ok",
+    "leftRunning": true
+  },
+  "postRefreshProviderTraces": [
+    {
+      "case": "birthday_consent",
+      "requestId": "d7485ba7-7e14-4c08-b8e2-21422504bfa8",
+      "providerResponseId": "30a92041-a914-48e8-9388-cbc8c15b3987",
+      "upstreamHttpStatus": 200,
+      "model": "deepseek-flash",
+      "promptTokens": 3631,
+      "completionTokens": 37,
+      "totalTokens": 3668,
+      "providerLatencyMs": 1038,
+      "handlerLatencyMs": 1039
+    },
+    {
+      "case": "birthday_continue",
+      "requestId": "14dde42d-4fa8-4bc2-84e2-9dd0243cde23",
+      "providerResponseId": "ca7bf641-0583-4635-b120-f6c339f584b5",
+      "upstreamHttpStatus": 200,
+      "model": "deepseek-flash",
+      "promptTokens": 151,
+      "completionTokens": 58,
+      "totalTokens": 209,
+      "providerLatencyMs": 1189,
+      "handlerLatencyMs": 1189
+    },
+    {
+      "case": "mixed_lcc_birthday",
+      "requestId": "9490c670-4a1e-4f23-b391-2418b0edd2f4",
+      "providerResponseId": "9dd251c6-f701-41e6-a753-7a9fbf038ec2",
+      "upstreamHttpStatus": 200,
+      "model": "deepseek-flash",
+      "promptTokens": 3641,
+      "completionTokens": 174,
+      "totalTokens": 3815,
+      "providerLatencyMs": 1630,
+      "handlerLatencyMs": 1631
+    }
+  ],
+  "cancelTrace": {
+    "requestId": "a087fbf5-124e-4480-a1e2-7b0b8194e855",
+    "upstreamAttempted": false,
+    "providerResponseId": null,
+    "usage": null,
+    "elapsedMs": 1
+  },
+  "usageNote": "Post-refresh: 7423 prompt + 269 completion = 7692 tokens. Two before-refresh assessment calls were made; old-process usage was not captured. No overall five-call total is claimed.",
+  "screenshots": [
+    "output/playwright/consent-birthday-general.jpg",
+    "output/playwright/consent-mixed-cancel.jpg"
+  ]
+}

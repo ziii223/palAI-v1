@@ -1,0 +1,168 @@
+{
+  "recordedOn": "2026-10-24",
+  "timezone": "Asia/Singapore",
+  "note": "Five bounded live calls; no retries. Semantic support reviewed separately against the cited source pages.",
+  "results": [
+    {
+      "test": "supported_en",
+      "http": 200,
+      "httpLatencyMs": 2347,
+      "question": "What is the Leaf Color Chart (LCC) used for?",
+      "response": {
+        "conversationId": "01cf27e6-8cdd-483f-baae-08d4221e9fab",
+        "assistantMessage": {
+          "id": "01679c38-3f55-4343-a7bf-9334e1fa7260",
+          "kind": "grounded",
+          "text": "The Leaf Color Chart (LCC) is a tool to visually assess the nitrogen status of the rice crop.\n\nLCC results can be used as a basis in properly determining the amount of N to apply.",
+          "references": [
+            {
+              "evidenceId": "p038-c01",
+              "documentId": "palaycheck-2020-revised-17da4d5f1102",
+              "pdfPage": 38,
+              "printedLabel": "33",
+              "section": "Nutrient Management"
+            },
+            {
+              "evidenceId": "p040-c01",
+              "documentId": "palaycheck-2020-revised-17da4d5f1102",
+              "pdfPage": 40,
+              "printedLabel": "35",
+              "section": "Nutrient Management"
+            }
+          ]
+        },
+        "pendingGeneral": null
+      },
+      "metrics": {
+        "model": "deepseek-flash",
+        "promptTokens": 1052,
+        "completionTokens": 131,
+        "totalTokens": 1183,
+        "providerLatencyMs": 2330,
+        "endToEndLatencyMs": 2331,
+        "reviewedEvidenceCount": 2,
+        "sourceContextUtf8Bytes": 2267
+      }
+    },
+    {
+      "test": "contextual_follow_up",
+      "http": 200,
+      "httpLatencyMs": 905,
+      "question": "When should I start using it, and how often?",
+      "response": {
+        "conversationId": "01cf27e6-8cdd-483f-baae-08d4221e9fab",
+        "assistantMessage": {
+          "id": "408a53a9-70ba-4b81-8dca-04c256de180a",
+          "kind": "grounded",
+          "text": "If LCC is available, use it every 7 days from 14 DAT or 21 DAS until early flowering.",
+          "references": [
+            {
+              "evidenceId": "p040-c01",
+              "documentId": "palaycheck-2020-revised-17da4d5f1102",
+              "pdfPage": 40,
+              "printedLabel": "35",
+              "section": "Nutrient Management"
+            }
+          ]
+        },
+        "pendingGeneral": null
+      },
+      "metrics": {
+        "model": "deepseek-flash",
+        "promptTokens": 1108,
+        "completionTokens": 70,
+        "totalTokens": 1178,
+        "providerLatencyMs": 895,
+        "endToEndLatencyMs": 895,
+        "reviewedEvidenceCount": 2,
+        "sourceContextUtf8Bytes": 2267
+      }
+    },
+    {
+      "test": "equivalent_fil",
+      "http": 200,
+      "httpLatencyMs": 1114,
+      "question": "Para saan ginagamit ang Leaf Color Chart (LCC)?",
+      "response": {
+        "conversationId": "c382e813-b6e7-479e-8881-891cb9cb6d7a",
+        "assistantMessage": {
+          "id": "4b6fd847-0f48-4a3b-b70b-61693c11a196",
+          "kind": "grounded",
+          "text": "Ang Leaf Color Chart (LCC) ay kagamitan para biswal na mataya ang nitrogen status ng palay.",
+          "references": [
+            {
+              "evidenceId": "p038-c01",
+              "documentId": "palaycheck-2020-revised-17da4d5f1102",
+              "pdfPage": 38,
+              "printedLabel": "33",
+              "section": "Nutrient Management"
+            }
+          ]
+        },
+        "pendingGeneral": null
+      },
+      "metrics": {
+        "model": "deepseek-flash",
+        "promptTokens": 1053,
+        "completionTokens": 66,
+        "totalTokens": 1119,
+        "providerLatencyMs": 1099,
+        "endToEndLatencyMs": 1099,
+        "reviewedEvidenceCount": 2,
+        "sourceContextUtf8Bytes": 2267
+      }
+    },
+    {
+      "test": "unreviewed_table",
+      "http": 200,
+      "httpLatencyMs": 458,
+      "question": "What is the average yield of PSB Rc 2 in the variety table?",
+      "response": {
+        "conversationId": "901c54fc-8a5d-4873-9100-b1ecf539ae29",
+        "assistantMessage": {
+          "id": "e594a7ea-f666-4dff-8ba3-07ce1c896773",
+          "kind": "clarification",
+          "text": "I cannot yet verify an answer from the reviewed PalayCheck passages available to me. Other pages, including some tables and diagrams, still need review. This does not mean your question is outside PalayCheck. Please ask about the Leaf Color Chart, or request review of the relevant source page.",
+          "references": []
+        },
+        "pendingGeneral": null
+      },
+      "metrics": {
+        "model": "deepseek-flash",
+        "promptTokens": 1056,
+        "completionTokens": 8,
+        "totalTokens": 1064,
+        "providerLatencyMs": 441,
+        "endToEndLatencyMs": 441,
+        "reviewedEvidenceCount": 2,
+        "sourceContextUtf8Bytes": 2267
+      }
+    },
+    {
+      "test": "missing_crop_context",
+      "http": 200,
+      "httpLatencyMs": 913,
+      "question": "Ask me for any missing crop details before answering: my LCC reading is 3.7.",
+      "response": {
+        "conversationId": "701ebe40-8509-4069-ac54-7c2bbb5b53a1",
+        "assistantMessage": {
+          "id": "06621b15-fae5-4717-9770-b8cfde24f633",
+          "kind": "clarification",
+          "text": "What crop establishment method are you using—transplanted rice (TPR) or direct wet-seeded rice (DWSR)?",
+          "references": []
+        },
+        "pendingGeneral": null
+      },
+      "metrics": {
+        "model": "deepseek-flash",
+        "promptTokens": 1059,
+        "completionTokens": 37,
+        "totalTokens": 1096,
+        "providerLatencyMs": 896,
+        "endToEndLatencyMs": 897,
+        "reviewedEvidenceCount": 2,
+        "sourceContextUtf8Bytes": 2267
+      }
+    }
+  ]
+}

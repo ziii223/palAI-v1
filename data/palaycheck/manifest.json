@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "documentId": "palaycheck-2020-revised-17da4d5f1102",
+  "title": "PalayCheck System",
+  "subtitle": "For irrigated lowland rice (transplanted/ direct wet-seeded)",
+  "issuingOrganization": "Philippine Rice Research Institute (PhilRice), Department of Agriculture",
+  "edition": "2020 Revised edition",
+  "year": 2020,
+  "identityVerifiedOnPhysicalPages": [
+    3,
+    4
+  ],
+  "file": "palaycheck.pdf",
+  "sha256": "17da4d5f11024a04230059b075072ad917f9c0e464c4fbd842a547f9f5fb2caa",
+  "sizeBytes": 15420857,
+  "pageCount": 108,
+  "preparedOn": "2026-10-24",
+  "timezone": "Asia/Singapore",
+  "pageLabelPolicy": "Physical pages are 1-based. Printed numerals are separate from embedded labels; visible-label exceptions: 1, 2, 108.",
+  "sectionRanges": [
+    {
+      "firstPdfPage": 6,
+      "lastPdfPage": 7,
+      "section": "Foreword"
+    },
+    {
+      "firstPdfPage": 8,
+      "lastPdfPage": 8,
+      "section": "Abbreviations, acronyms, and symbols used:"
+    },
+    {
+      "firstPdfPage": 9,
+      "lastPdfPage": 16,
+      "section": "The PalayCheck System"
+    },
+    {
+      "firstPdfPage": 17,
+      "lastPdfPage": 20,
+      "section": "Variety and Seed Selection"
+    },
+    {
+      "firstPdfPage": 21,
+      "lastPdfPage": 24,
+      "section": "Land Preparation"
+    },
+    {
+      "firstPdfPage": 25,
+      "lastPdfPage": 34,
+      "section": "Crop Establishment"
+    },
+    {
+      "firstPdfPage": 35,
+      "lastPdfPage": 46,
+      "section": "Nutrient Management"
+    },
+    {
+      "firstPdfPage": 47,
+      "lastPdfPage": 50,
+      "section": "Water Management"
+    },
+    {
+      "firstPdfPage": 51,
+      "lastPdfPage": 56,
+      "section": "Pest Management"
+    },
+    {
+      "firstPdfPage": 57,
+      "lastPdfPage": 60,
+      "section": "Harvest Management"
+    },
+    {
+      "firstPdfPage": 61,
+      "lastPdfPage": 66,
+      "section": "Postharvest Management"
+    },
+    {
+      "firstPdfPage": 67,
+      "lastPdfPage": 74,
+      "section": "Summary of Key Checks and Assessment, Monitoring, Analysis, and Improvement"
+    },
+    {
+      "firstPdfPage": 75,
+      "lastPdfPage": 92,
+      "section": "Annexes"
+    },
+    {
+      "firstPdfPage": 93,
+      "lastPdfPage": 105,
+      "section": "Appendices"
+    }
+  ],
+  "extraction": {
+    "pythonVersion": "3.14.7",
+    "libraries": {
+      "pdfplumber": "0.11.10",
+      "pdfminer.six": "20260107",
+      "pypdf": "6.21.2",
+      "pypdfium2": "5.14.0"
+    },
+    "method": "Native characters, x_tolerance=2/y_tolerance=3; exact footer removal; coordinate rotation for sideways text. No OCR or guessed corrections.",
+    "evidencePolicy": "One nonempty physical-page body per passage. IDs are stable for this fixed hash, extractor and settings. No passage spans pages.",
+    "nativeExtractionSeconds": 3.237,
+    "rawTextCharacters": 72066,
+    "rawTextUtf8Bytes": 72500,
+    "bodyTextCharacters": 71853,
+    "bodyTextUtf8Bytes": 72287,
+    "bodyWhitespaceWordCount": 11850,
+    "nativeTextOnlyUtf8Bytes": 39314,
+    "groundingStatusCounts": {
+      "non_substantive": 19,
+      "native_text_only": 53,
+      "requires_visual_review": 33
+    },
+    "pagesWithNoBodyText": [
+      1,
+      74,
+      108
+    ],
+    "rotatedReadingPages": [
+      72,
+      73,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "tableCandidatePages": [
+      32,
+      41,
+      43,
+      44,
+      53,
+      54,
+      63,
+      73,
+      77,
+      78,
+      89,
+      90,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "visuallyIdentifiedTablePages": [
+      30,
+      32,
+      33,
+      41,
+      42,
+      43,
+      44,
+      45,
+      53,
+      54,
+      56,
+      63,
+      73,
+      77,
+      78,
+      79,
+      89,
+      90,
+      92,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "comparisonGlyphReviewPages": [
+      8,
+      41,
+      49,
+      53,
+      54,
+      58
+    ],
+    "imageObjectPages": [
+      1,
+      3,
+      11,
+      12,
+      13,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      67,
+      68,
+      69,
+      72,
+      76,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      89,
+      108
+    ],
+    "unrecoverableReplacementCharacterCount": 0
+  },
+  "files": {
+    "pages.jsonl": {
+      "sha256": "d3e95691ebc5fda1a65059574a5ffcde5aa39153fd54ef425cf6e116df72a590",
+      "sizeBytes": 247589,
+      "recordCount": 108
+    },
+    "evidence.jsonl": {
+      "sha256": "b380d3807f3d11e533ef86041223c8fb479c0d407f22bb538a094c0f513e64ef",
+      "sizeBytes": 132987,
+      "recordCount": 105
+    }
+  },
+  "groundingRecommendation": {
+    "strategy": "Full page-tagged reviewed text before adding a retrieval index; recommendation only, no answering/retrieval implemented.",
+    "constraints": "native_text_only is an extraction classification, not semantic claim verification. Quarantine requires_visual_review/non_substantive records; explicitly retain visual/table coverage gaps and ask for source review rather than treating gaps as outside-PDF topics.",
+    "modelTokenCount": null,
+    "providerLatency": null,
+    "measurementNote": "Character/UTF-8 sizes measured locally. Model-specific tokens and full-context provider latency not measured."
+  }
+}
