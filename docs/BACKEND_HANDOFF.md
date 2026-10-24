@@ -330,7 +330,7 @@ exist in dev/provider-samples/. No photo result or transcript is fabricated.
 
 | Task | Closeout status against the original criterion | Unmet requirement |
 | --- | --- | --- |
-| BE-01 | PARTIAL: React/Vite/Express scaffold, scripts, shared types and Vite API proxy verified; handoff ready | Freeze/share requirement is not complete: local Git has no commit/checkpoint or remote, and receipt of a shared baseline by the frontend builder is unverified. No delivery is claimed. |
+| BE-01 | PARTIAL: scaffold/scripts/types/proxy verified; Git baseline frozen and published privately on main | Teammate access/receipt remains unverified. Private repository publication does not claim delivery to or integration by the frontend builder. |
 | BE-02 | COMPLETE: ignored .env, blank-secret .env.example, local key presence confirmed without values | None for this criterion. Media functionality is separate. |
 | BE-03 | COMPLETE with explicit quality limits: fixed PDF, page-local extraction, manifest/hash, edition/labels and reviewed artifacts exist | Full-document review is not claimed or required by this source-preparation criterion; flagged/unreviewed content stays withheld. |
 | BE-04 | COMPLETE: implemented reviewed-context strategy selected and supported by measured size, returned tokens and latency | No claim that whole raw-document inference/retrieval was measured. |
@@ -338,10 +338,12 @@ exist in dev/provider-samples/. No photo result or transcript is fabricated.
 | BE-06 | COMPLETE implementation: separate text/photo tester, question/language, Send, JSON, references, consent and audio review; excluded from production | Real vision/speech acceptance is tracked separately in BE-10/BE-11; final frontend integration is pending. |
 | BE-07 | COMPLETE for the original first grounded text-chat criterion: real provider, canonical references, anonymous session/follow-up behavior verified | Media/general-answer paths are not included in this completion. |
 
-Backend-owned open items are the BE-01 frozen/distributed baseline and the rest of
-BE-06. Missing photo, English and Filipino recordings keep their three real media
+The BE-01 baseline is now frozen/published at https://github.com/ziii223/palAI-v1;
+teammate access/receipt and final frontend integration remain pending. BE-06 tester
+implementation is complete. Missing photo, English and Filipino recordings keep real media
 smoke tests BLOCKED; place private samples at dev/provider-samples/photo.*, english.*
-and filipino.* without changing their actual extensions. No media endpoints have been implemented.
+and filipino.* without changing their actual extensions. Media endpoints are implemented
+as described in the BE-10/BE-11 sections; real-media acceptance is not claimed.
 
 Frontend-dependent items are baseline receipt confirmation, final API adapter/chat
 integration (FE-06), reference expansion and in-app PDF viewing. src/main.tsx remains
@@ -832,6 +834,35 @@ a replacement PNG became a 120x60 JPEG, and Remove hid/cleared it. Camera captur
 is environment, Record remained enabled, and chat JSON stayed "No request yet.".
 Screenshots: output/playwright/photo-orientation-preview.jpg and photo-controls.jpg.
 No actual camera permission/capture or real crop interpretation was tested.
+
+## Private baseline publication (2026-10-24)
+
+Repository: https://github.com/ziii223/palAI-v1, PRIVATE, branch main.
+Initial frozen project checkpoint: 65c5fe1883556d063c99f79476b197aef0484603.
+Authenticated GitHub API verified that exact SHA on remote main and confirmed private
+visibility. This additive documentation update records publication without rewriting
+the checkpoint. Use the final branch HEAD for the latest handoff/progress notes.
+
+Includes source/shared types, lockfile/configuration, tests/required scripts, project
+documents, canonical PDF and all prepared evidence/review artifacts, development tester,
+sanitized verification records, design reference, local skill documents/provenance and
+existing license notices. The root README gives fresh-checkout instructions. Runtime
+FFmpeg/FFprobe prerequisites remain unchanged; no binaries/dependencies are bundled.
+
+Actual environment/credential files, dependencies/builds/caches, private media,
+temporary uploads, browser state/raw logs and generated output screenshots are excluded
+and left intact locally. Historical screenshot links target those local artifacts.
+.env.example is included with blank secrets. Git attributes preserve source bytes
+exactly, including the PDF/manifest/page-record hashes on Windows checkouts.
+
+The initially empty history and reviewed/staged files passed credential scanning.
+No feature/provider test was rerun for publication. Existing GitHub CLI credentials
+created/pushed/verified the private repo; the connector identified the same account
+but did not yet have visibility of this new private repository. No app permissions,
+collaborators or teammate notifications were changed.
+
+Teammate access/receipt, final frontend integration, real media acceptance and Phase 3
+remain pending. Private publication alone does not complete those requirements.
 
 BE-06 tester implementation is complete. BE-10 real-vision and BE-11 real-speech
 acceptance remain open/BLOCKED by missing media. Baseline sharing, final frontend

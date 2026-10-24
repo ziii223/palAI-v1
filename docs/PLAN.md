@@ -116,7 +116,7 @@ Complete when the deployed app passes the real user journey on a phone.
 
 | Phase | Status | Completed task IDs | Verification / blockers |
 | --- | --- | --- | --- |
-| 1 | BACKEND READY; original full phase gate PENDING | BE-02, BE-03, BE-04, BE-05, BE-06, BE-07 (text) | BE-06 now includes photo submission, response JSON, consent and audio review, separate from production. BE-01 freeze/share unverified. Eight reviewed excerpts, not full coverage. Latest checks: 58 tests/typecheck/build PASS. Final frontend integration pending; real photo/English/Filipino audio smoke tests BLOCKED by absent samples. |
+| 1 | BACKEND READY; original full phase gate PENDING | BE-02, BE-03, BE-04, BE-05, BE-06, BE-07 (text) | BE-01 baseline frozen/published privately on GitHub main; teammate access/receipt still unverified. BE-06 includes photo, JSON, consent and audio review, separate from production. Eight reviewed excerpts, not full coverage. Last implementation checks: 58 tests/typecheck/build PASS. Final frontend integration pending; real media smoke tests BLOCKED. |
 | 2 | IN PROGRESS: consent complete; photo/transcription implemented | BE-08 (text), BE-09, BE-12 | BE-10/BE-11 implementations and automated checks pass; real vision/speech acceptance remains UNVERIFIED/BLOCKED. Phase 1 baseline-sharing/final frontend gates remain pending. No Phase 3 work. |
 | 3 | NOT STARTED | None | Local production build arrangement verified; integration/deployment deferred. |
 
@@ -513,7 +513,7 @@ Only docs/PLAN.md backend checklist/progress/integration and docs/BACKEND_HANDOF
 
 | Checkpoint | Status | Evidence |
 | --- | --- | --- |
-| Shared baseline distributed | PENDING DISTRIBUTION / RECEIPT | Handoff ready; no frozen Git checkpoint/remote or verified recipient receipt. |
+| Shared baseline distributed | PRIVATE BASELINE PUBLISHED; TEAMMATE ACCESS / RECEIPT PENDING | https://github.com/ziii223/palAI-v1, main; initial checkpoint 65c5fe1883556d063c99f79476b197aef0484603 matched remote. No collaborator invitation, teammate receipt or final UI integration claimed. |
 | First live UI-to-backend answer | PENDING FRONTEND | Backend API verified; src/main.tsx placeholder. Temporary tester is not final UI acceptance. |
 | Real reference-to-page navigation | PENDING FRONTEND | Canonical backend metadata/PDF verified; final collapsed References/in-app viewer absent. |
 | Photo and transcription connected | BACKEND IMPLEMENTED; live vision/speech BLOCKED | Running chat image field, transcription route and tester controls verified with 58 automated tests and browser preparation checks. No real crop/voice samples supplied. Final frontend integration pending. |
@@ -891,3 +891,52 @@ transcription and health probes passed with no upstream generation. Final build/
 typecheck and 58 tests PASS. Protected source/frontend/shared-contract/environment/
 lockfile hash checks and changed-file secret scan PASS. Removed only checked synthetic
 UI fixture files from OS temp; no private samples were created or removed.
+
+### Private GitHub baseline checkpoint - 2026-10-24 (Asia/Singapore)
+
+Feature development stopped for publication. Authenticated user is ziii223, confirmed
+by the GitHub connector and existing GitHub CLI authentication. Initially Git had no
+commits, tracked/index files or remotes and an unborn master branch. Therefore main
+was initialized without replacing existing commits/history; no force push or history
+rewrite. No conflicting repository existed. Created https://github.com/ziii223/palAI-v1
+as PRIVATE under that user; configured origin only after verifying no existing remote.
+
+Initial project checkpoint: 65c5fe1883556d063c99f79476b197aef0484603,
+"Checkpoint PalAI v1 backend, tester, and canonical source evidence". Pushed main;
+authenticated GitHub API confirmed private=true, visibility=private, default_branch=main,
+and remote head exactly matched that local checkpoint. This follow-up documentation
+records the verified publication; its own commit will be a normal additive update.
+
+Reviewed/staged 82 project files: application/shared types, package manifests/lock,
+runtime/build configuration, tests/source scripts, all project Markdown/current progress,
+canonical PalayCheck PDF plus all 10 prepared source/review files, development tester,
+sanitized synthetic-question verification records, design reference and 13 project-local
+skill/provenance files with their existing license notices unchanged. Added a root
+reproduction README. Existing FFmpeg/FFprobe PATH requirements remain documented.
+
+.gitignore now excludes output screenshots/generated duplicates, private photo/audio,
+temporary uploads, caches/browser profiles, environment files and credentials in
+addition to dependencies/builds/virtual environments. No excluded file was deleted.
+.env.example remains included with blank DEEPSEEK_API_KEY/GROQ_API_KEY. New
+.gitattributes preserves all data/palaycheck source bytes, avoiding core.autocrlf=true
+breaking manifest hashes. All staged source artifacts exactly matched local bytes;
+canonical PDF SHA-256 remains 17da4d5f11024a04230059b075072ad917f9c0e464c4fbd842a547f9f5fb2caa.
+
+Credential review PASS for proposed files and the actual staged blobs: exact local
+provider-key checks, credential/private-key patterns and literal credential checks,
+plus blank-example and private-path exclusions. No secrets found. Existing history
+was empty, so there was no pre-existing tracked secret or history to rewrite. Scan
+scripts/manifests live only under local .git and are not published. Generated screenshots
+under output/ stay local; their historical Markdown links are local-only evidence.
+
+No product behavior changed, tests/providers were not rerun, no skills were installed,
+and Graphify was not run. Prior 58-test/typecheck/build results remain historical
+implementation verification. GitHub connector could identify the user but did not yet
+see the new private repository; CLI authentication verified publication successfully.
+No GitHub app permissions or collaborator access were changed.
+
+BE-01 freeze/publication portion is now done, but teammate access/receipt remains
+PENDING and BE-01 is not marked fully complete. Final frontend integration, real
+vision/speech acceptance and all other phase gates remain unchanged. No teammate
+message or invitation was sent. Final local/remote branch-head equality and clean
+tracked-worktree verification will be repeated after this documentation update.
